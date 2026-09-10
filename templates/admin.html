@@ -1,0 +1,9 @@
+<h2>Admin Dashboard</h2>
+
+<p>Total Voters: {{users}}</p>
+<p>Total Votes Cast: {{votes}}</p>
+
+<h3>Results</h3>
+{% for r in results %}
+    <p>{{r[0]}} : {{r[1]}}</p>
+{% endfor %}

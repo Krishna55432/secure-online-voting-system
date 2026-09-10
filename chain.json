@@ -1,0 +1,109 @@
+[
+    {
+        "index": 0,
+        "timestamp": "2026-04-19 12:05:31.126188",
+        "data": "Genesis Block",
+        "previous_hash": "0",
+        "nonce": 0,
+        "hash": "6ff5c77ee825d5af15d56fdee87c061c618b7e885322dd2e0674e7242dfcf44d"
+    },
+    {
+        "index": 1,
+        "timestamp": "2026-04-19 12:06:14.688626",
+        "data": {
+            "voter": "VOTER100006",
+            "vote": "Vijay"
+        },
+        "previous_hash": "6ff5c77ee825d5af15d56fdee87c061c618b7e885322dd2e0674e7242dfcf44d",
+        "nonce": 4245,
+        "hash": "2f770b928d6670254c31e61fa7fe2b54c61bf26c42c4b6d54d77c6e2bf324f67"
+    },
+    {
+        "index": 2,
+        "timestamp": "2026-04-19 12:11:50.273307",
+        "data": {
+            "voter": "VOTER100007",
+            "vote": "EPS"
+        },
+        "previous_hash": "2f770b928d6670254c31e61fa7fe2b54c61bf26c42c4b6d54d77c6e2bf324f67",
+        "nonce": 1574,
+        "hash": "000ae960e49d1a6d356a3de2713608250a87c273375802f3c4d2f5912972d740"
+    },
+    {
+        "index": 3,
+        "timestamp": "2026-04-19 12:23:46.946970",
+        "data": {
+            "voter": "VOTER100008",
+            "vote": "EPS"
+        },
+        "previous_hash": "000ae960e49d1a6d356a3de2713608250a87c273375802f3c4d2f5912972d740",
+        "nonce": 9552,
+        "hash": "000e9b1665b8b4d673cfda244430bdc02c4ba7e7bbb14ca59cb08453c191ffd4"
+    },
+    {
+        "index": 4,
+        "timestamp": "2026-04-19 12:37:26.855286",
+        "data": {
+            "voter": "VOTER100009",
+            "vote": "Vijay"
+        },
+        "previous_hash": "000e9b1665b8b4d673cfda244430bdc02c4ba7e7bbb14ca59cb08453c191ffd4",
+        "nonce": 13,
+        "hash": "000d7a94b0459581bdc2b745d0c23242799d9e54be453790ad05173914b1fd7f"
+    },
+    {
+        "index": 5,
+        "timestamp": "2026-04-19 13:09:05.657384",
+        "data": {
+            "voter": "VOTER100010",
+            "vote": "Vijay"
+        },
+        "previous_hash": "000d7a94b0459581bdc2b745d0c23242799d9e54be453790ad05173914b1fd7f",
+        "nonce": 2767,
+        "hash": "00005829eba9d0655f29efaaa99e8cf02ef68ad68975ded367bac1967769d9b5"
+    },
+    {
+        "index": 6,
+        "timestamp": "2026-04-19 13:16:57.450193",
+        "data": {
+            "voter": "VOTER100011",
+            "vote": "Vijay"
+        },
+        "previous_hash": "00005829eba9d0655f29efaaa99e8cf02ef68ad68975ded367bac1967769d9b5",
+        "nonce": 410,
+        "hash": "000e2f3eef2ac7f0ebb2aaf354486112587d4ab8cf09d926545017fbc3a7495d"
+    },
+    {
+        "index": 7,
+        "timestamp": "2026-04-19 19:51:03.935008",
+        "data": {
+            "voter": "VOTER100012",
+            "vote": "Vijay"
+        },
+        "previous_hash": "000e2f3eef2ac7f0ebb2aaf354486112587d4ab8cf09d926545017fbc3a7495d",
+        "nonce": 1522,
+        "hash": "000cd4e58295ac6e9f87eae04ee2c6f050bf0f447e7236378164d7a16fa9611c"
+    },
+    {
+        "index": 8,
+        "timestamp": "2026-04-22 14:12:57.179253",
+        "data": {
+            "voter": "VOTER100019",
+            "vote": "Annamalai"
+        },
+        "previous_hash": "000cd4e58295ac6e9f87eae04ee2c6f050bf0f447e7236378164d7a16fa9611c",
+        "nonce": 9116,
+        "hash": "000b058da2c40384e14499f4b9f1c815a2225d5b523fa4bd72db524dd2dabce9"
+    },
+    {
+        "index": 9,
+        "timestamp": "2026-04-22 16:53:10.173658",
+        "data": {
+            "voter": "VOTER100020",
+            "vote": "Vijay"
+        },
+        "previous_hash": "000b058da2c40384e14499f4b9f1c815a2225d5b523fa4bd72db524dd2dabce9",
+        "nonce": 14318,
+        "hash": "00096cc0afb68cc3116a06599aa31f26f2dbadd507e34e5e644f8cef80d720b8"
+    }
+]

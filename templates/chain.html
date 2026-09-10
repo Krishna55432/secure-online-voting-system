@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blockchain</title>
+    <style>
+        body {
+            background: #020617;
+            color: white;
+            font-family: Arial;
+        }
+
+        .block {
+            border: 1px solid #38bdf8;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #38bdf8;
+        }
+
+        .tampered {
+            border: 2px solid red;
+            background: rgba(255, 0, 0, 0.2);
+        }
+
+        .diff {
+            color: red;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>{{status}}</h2>
+
+{% if bad_block != -1 %}
+<div class="diff">
+    <p><b>Stored Value:</b> {{stored}}</p>
+    <p><b>Recalculated Value:</b> {{calculated}}</p>
+</div>
+{% endif %}
+
+{% for block in chain %}
+<div class="block {% if block.index == bad_block %}tampered{% endif %}">
+    <p><b>Block:</b> {{block.index}}</p>
+    <p><b>Data:</b> {{block.data}}</p>
+    <p><b>Nonce:</b> {{block.nonce}}</p>
+    <p><b>Hash:</b> {{block.hash}}</p>
+    <p><b>Previous Hash:</b> {{block.previous_hash}}</p>
+</div>
+{% endfor %}
+
+</body>
+</html>

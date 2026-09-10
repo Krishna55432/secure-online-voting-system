@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vote</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Orbitron', sans-serif;
+            background: linear-gradient(135deg, #0f172a, #020617);
+            color: white;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 30px;
+            color: #38bdf8;
+        }
+
+        .container {
+            width: 400px;
+            margin: auto;
+        }
+
+        .card {
+            backdrop-filter: blur(15px);
+            background: rgba(255,255,255,0.05);
+            padding: 15px;
+            border-radius: 15px;
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 0 15px #38bdf8;
+        }
+
+        input[type="radio"] {
+            transform: scale(1.3);
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background: #22c55e;
+            border: none;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        button:hover {
+            box-shadow: 0 0 15px #22c55e;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>🗳️ Cast Your Vote</h2>
+
+<div class="container">
+
+<form method="POST">
+
+<div class="card">
+    <input type="radio" name="candidate" value="Vijay" required>
+    <img src="/static/vijay.png" width="50">
+    Thalapathy Vijay (TVK)
+</div>
+
+<div class="card">
+    <input type="radio" name="candidate" value="Stalin">
+    <img src="/static/stalin.png" width="50">
+    M.K. Stalin (DMK)
+</div>
+
+<div class="card">
+    <input type="radio" name="candidate" value="Annamalai">
+    <img src="/static/annamalai.png" width="50">
+    Annamalai (BJP)
+</div>
+
+<div class="card">
+    <input type="radio" name="candidate" value="EPS">
+    <img src="/static/eps.png" width="50">
+    EPS (AIADMK)
+</div>
+
+<button>Submit Vote</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
